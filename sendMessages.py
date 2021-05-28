@@ -4,6 +4,8 @@ import json
 
 bot = commands.Bot(command_prefix='?')
 
+token = input("Your discord token: ")
+
 @bot.event
 async def on_ready():
     print(' [!] Started Dmming Ids\n')
@@ -23,4 +25,4 @@ async def on_ready():
 
     print(" [+] Done")
 
-bot.run("", bot = False)
+bot.run(token bot = False)
