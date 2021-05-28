@@ -25,4 +25,4 @@ async def on_ready():
 
     print(" [+] Done")
 
-bot.run(token bot = False)
+bot.run(token, bot = False)
